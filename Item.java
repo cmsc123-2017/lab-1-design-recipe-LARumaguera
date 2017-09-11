@@ -13,7 +13,7 @@ class Item {
 	// -> double
 	// Returns the sale price value given this sale percentage only if the price exceeds 1000.
 
-	double salePrice(double percentage){
+	double salePrice1000(double percentage){
 		if (price > SALE_LIMIT){
 			return price * (1 - percentage);
 		} else {
